@@ -13,5 +13,5 @@ server.use(express.json());
 server.listen(3000);
 
 server.get('/zeca', (req, res) => {
-    return res.send({zeca: 'Olá mundo!'})
+    return res.send({zeca: 'Olá mundo!'});
 })
